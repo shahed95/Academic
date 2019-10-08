@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medicare</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>Medicare</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Search</a></li>
+				<li><a href="#">Store List</a></li>
+				<li><a href="#">drug List</a></li>
+				<li><a href="#">Log In</a></li>
+				
+			</ul>
+		</div>
+	</nav>
+
+	<!-- <form class="my-form"> -->
+	<section id="login">
+		<div class="container">
+	
+			<div id="wrong">
+			<p> Wrong user name or password! </p> 
+			</div>
+	
+			<form action="../controller/serverLogin.php" method="POST">
+			
+			<div class="form-group">
+				<label>User Email: </label>
+				<input type="text" name="userEmail">
+			</div>
+			<br>
+
+			<div class="form-group">
+				<label>Password: </label>
+				<input type="password" name="psw">
+			</div>
+			<br>
+			
+			<input class="button" type="submit" value="Submit" name="submit">
+			
+
+			</form>
+		</div>
+		<div class="sign">
+			<p>Don't have an account ? <a href="signup.html"> Sign Up </a> </p>
+		</div>
+	</section>
+
+			
+</body>
+</html>

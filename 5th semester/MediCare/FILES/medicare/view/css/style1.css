@@ -1,0 +1,245 @@
+body{
+	
+	background-image: url("../images/Back3.png");
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;        
+    width: 98%;            
+    height: 610px; 
+    margin:auto;
+    line-height: 1.8em;
+
+};
+
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:rgba(0,150,0,0.3);
+	color:#fff;
+	font-family: verdana;
+	padding:7px;
+	margin:0;
+	border:none;
+}
+#main-header h1{
+	padding-left: 10px;
+}
+#navbar{
+	background-color:rgba(102,0,102,0.2);
+	color:#fff;
+	font-family: verdana;
+	margin:0;
+	border:none;
+}
+#navbar ul{
+	padding:10px;
+	list-style: none;
+}
+#navbar li{
+	display:inline;
+}
+#navbar li:nth-child(5){
+	float:right;
+}
+#navbar li:nth-child(6){
+	float:right;
+	padding-right: 30px;
+}
+#navbar li:nth-child(7){
+	float:right;
+	padding-right: 30px;
+}
+
+.button2{
+	background-color: #191970;
+    color:white;
+    font-family: verdana;
+    font-size: 25;
+    border:none;
+    margin:none;
+    padding:10px 20px;
+}
+
+#navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-right: 16px;
+    font-size: 17px;
+}
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:20px;
+}
+#navbar a:hover{
+
+	text-decoration: bold;
+	font-size:20px;
+	
+}
+#welcome {
+	float:left;
+	width:40%;
+	margin:auto;
+	padding-top: 60px;
+}
+#welcome h1{
+	text-align: center;
+	text-decoration: bold;
+	font-size: 40px;
+	font-family: Arial;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	animation-name: btn;
+  	animation-duration: 3s;
+  	animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+@keyframes btn {
+  0%   {opacity:0}
+  100% {opacity: 1}
+}
+#welcome p{
+	text-align: center;
+	font-family:verdana;
+	font-size:22px;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	position: relative;
+  	animation-name: content;
+  	animation-duration: 3s;
+  	animation-fill-mode: forwards;
+}
+@keyframes content {
+  0%   {left: -1000px;}
+  100% {left: 0;}
+}
+
+#login {
+	background-color:rgba(0,0,128,0.2);
+	width:30%;
+	padding-top: 120px;
+	text-align: center;
+	font-family: verdana;
+	font-size: 18px;
+	margin:auto;
+}
+
+
+#wrong{
+	color:red;
+}
+
+/* sign up fail form id */
+#login2 {
+	background-color:rgba(0,0,128,0.2);
+	width:30%;
+	padding-top: 50px;
+	text-align: center;
+	font-family: verdana;
+	font-size: 18px;
+	margin:auto;
+
+}
+#login2 p{
+	color:red;
+}
+.button{
+	background-color:#333;
+	color:#fff;
+	padding:20px 15px;
+	border:none;
+}
+
+/* login page */
+.form-group{
+	color:#FFF;
+	text-decoration: bold;
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+.form-group label{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	display: block;
+}
+
+/* sign up form */
+.form-group2{
+	color:yellow;
+	text-decoration: bold;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+/* removes arrow from number form tag of html */
+.form-group2 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+/* login page below submit button */
+.sign{
+	font-size: 16px;
+	font-family: verdana;
+	color:rgb(0,0,0);
+}
+.sign a{
+	color:#FF0000;
+}
+
+/* shop page */
+.block{
+	
+	text-align: center;
+	color:yellow;
+	float:left;
+	width:33%;
+	border:1px ;
+	padding:10px;
+	box-sizing:border-box;
+	overflow: hidden;
+	margin:auto;
+}
+#different{
+	background-image: url("../images/background3.jpg");
+	background-size: cover;
+	background-repeat: repeat-y;
+	position: relative;        
+    width: 98%;            
+    height: 610px; 
+    margin:auto;
+    line-height: 1.8em;
+}
+
+.error{
+	text-align: center;
+	color:yellow;
+	padding:200px 0px 0px 0px;
+	font-size: 100px;
+}
+
+/* Product Detail */
+
+#secbar ul{
+	padding:50px;
+	list-style: none;
+}
+#secbar li{
+	float:left;
+	padding-right: 15px;
+	display:inline;
+}
